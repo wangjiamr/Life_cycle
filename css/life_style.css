@@ -13,7 +13,7 @@
 .SerBtn{width:30px;height:29px;background-position:-35px 0;}
 .OutBtn{width:60px;height:49px;background-color:#b4b4b4;transition:0.2s;}
 .OutBtn:hover{background-color:#ee6868;transition:0.2s;}
-.Board{width:80%;margin:0 auto;margin-top:5%;}
+.Board{width:80%;margin:0 auto;margin-top:3%;}
 .Tilte{height:40px;line-height:40px;border-bottom: 1px solid #cccccd;}
 .Board ul li{display: inline-block;width:24%;float: left;border-right: 1px solid #cccccd;height:150px;}
 .Board ul li span{display: inline-block;font-size:60px;line-height:60px;padding-top:30px;}
@@ -37,10 +37,14 @@
 .UserList li:hover{background:#ecf3fb;transition:0.2s;}
 .TableData tbody td .UserList li .txt_hidden{width:75%;}
 .TableData tbody td .UserList li .UserName,.TableData tbody td .UserList li .UserName img{width:50px;height:50px;}
-
-
-
-
+.DataDiv{width:46%;}
+.DataTable{width:100%;}
+.DataTable th,.DataTable td{border:1px solid #ebebeb;height:29px;line-height:29px;text-indent:10px;color:#666;background:#fff;}
+.DataTable thead th{background:#f1f1f1;color:#333;}
+.DataTable thead td{background:#86898d;color:#fff;}
+.Clander{background:#fff;height:29px;border-left:1px solid #ebebeb;}
+.Clander input{border:0;background:#fff;height:29px;color:#888;}
+.Clander a{width:30px;height:20px;border-left:1px solid #ebebeb;}
 
 
 

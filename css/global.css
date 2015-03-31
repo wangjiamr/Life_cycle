@@ -125,6 +125,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .ico-5{background-position:-35px -49px;}
 .ico-6{background-position:-35px -63px;}
 .ico-7{background-position:-35px -87px;}
+.ico-clander{width:14px;height:12px;background-position:-35px -107px;top:4px;}
 .ico-back{width:23px;height:16px;background-position:-35px -91px;}
 
 @font-face {
@@ -141,7 +142,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 
 /*分页*/
 .pagenation a{display: inline-block;min-width: 24px;height: 24px;line-height: 24px;color:#a0a0a0;text-align: center;border:1px solid #e5e5e5;background:#fff;}
-.pagenation a:hover,.pagenation a.current{color:#fff;background-color:#347cdc;}
+.pagenation a:hover,.pagenation a.current{color:#fff;background-color:#aaa;}
 .pagenation .page{font-size: 14px;margin:0 10px;}
 .pagenation .page:hover{background-color:#fff;color:#347cdc;}
 .pagenation a.disabled:hover,.pagenation a.disabled,.CheckWord .disabled:hover,.CheckWord .disabled{background:none;color:#ccc;cursor: default;}
