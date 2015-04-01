@@ -19,6 +19,7 @@
 .Board ul li span{display: inline-block;font-size:60px;line-height:60px;padding-top:30px;}
 .Board ul li p{padding:10px 0 0 20px;}
 .BoardItem ul li{height:100px;margin-bottom:20px;}
+.BoardItem ul.second li{width:30%;}
 .BoardItem ul li span{padding-top:10px;font-size:30px;}
 .TableData{width:100%;}
 .TableData th,.TableData td{border:1px solid #ededed;padding-left:10px;height:40px;}
