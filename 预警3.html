@@ -5,6 +5,7 @@
     <title>预警3</title>
     <link rel="stylesheet" type="text/css" href="css/global.css">
     <link rel="stylesheet" type="text/css" href="css/life_style.css">
+    <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
 </head>
 <body>
 <div class="layout">
@@ -122,36 +123,60 @@
                                     <td>登录时间</td>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <td>玄令顺（明道战斗生活）</td>
-                                    <td>2014-12-31  14:56:36</td>
-                                </tr>
-                                <tr>
-                                    <td>玄令顺（明道战斗生活）</td>
-                                    <td>2014-12-31  14:56:36</td>
-                                </tr>
-                                <tr>
-                                    <td>玄令顺（明道战斗生活）</td>
-                                    <td>2014-12-31  14:56:36</td>
-                                </tr>
-                                <tr>
-                                    <td>玄令顺（明道战斗生活）</td>
-                                    <td>2014-12-31  14:56:36</td>
-                                </tr>
-                            </tbody>
                         </table>
-                        <div class="pagenation mart10 alignright">
-                            <a href="#">&lt;</a>
-                            <a href="#">1</a>
-                            <a href="#">2</a>
-                            <a href="#">3</a>
-                            <a href="#">4</a>
-                            <a href="#" class="current">5</a>
-                            <a href="#">...</a>
-                            <a href="#">6</a>
-                            <a href="#" class="disabled">7</a>
-                            <a href="#">&gt;</a>
+                        <div class="jscroll" style="width:100%;height:200px;">
+                            <table class="DataTable">
+                                <tbody>
+                                    <tr>
+                                        <td>玄令顺（明道战斗生活）</td>
+                                        <td>2014-12-31  14:56:36</td>
+                                    </tr>
+                                    <tr>
+                                        <td>玄令顺（明道战斗生活）</td>
+                                        <td>2014-12-31  14:56:36</td>
+                                    </tr>
+                                    <tr>
+                                        <td>玄令顺（明道战斗生活）</td>
+                                        <td>2014-12-31  14:56:36</td>
+                                    </tr>
+                                    <tr>
+                                        <td>玄令顺（明道战斗生活）</td>
+                                        <td>2014-12-31  14:56:36</td>
+                                    </tr>
+                                    <tr>
+                                        <td>玄令顺（明道战斗生活）</td>
+                                        <td>2014-12-31  14:56:36</td>
+                                    </tr>
+                                    <tr>
+                                        <td>玄令顺（明道战斗生活）</td>
+                                        <td>2014-12-31  14:56:36</td>
+                                    </tr>
+                                    <tr>
+                                        <td>玄令顺（明道战斗生活）</td>
+                                        <td>2014-12-31  14:56:36</td>
+                                    </tr>
+                                    <tr>
+                                        <td>玄令顺（明道战斗生活）</td>
+                                        <td>2014-12-31  14:56:36</td>
+                                    </tr>
+                                    <tr>
+                                        <td>玄令顺（明道战斗生活）</td>
+                                        <td>2014-12-31  14:56:36</td>
+                                    </tr>
+                                    <tr>
+                                        <td>玄令顺（明道战斗生活）</td>
+                                        <td>2014-12-31  14:56:36</td>
+                                    </tr>
+                                    <tr>
+                                        <td>玄令顺（明道战斗生活）</td>
+                                        <td>2014-12-31  14:56:36</td>
+                                    </tr>
+                                    <tr>
+                                        <td>玄令顺（明道战斗生活）</td>
+                                        <td>2014-12-31  14:56:36</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <!--登陆日志over-->
@@ -213,5 +238,19 @@
     <!--右侧over-->
 </div>
 <div class="mask" style="display:;"></div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    $(function() {
+        function Jscroll(){
+            $('.jscroll').jScrollPane({
+                'mouseWheelSpeed':100,
+                "showArrows":false
+            });
+        }
+        Jscroll();
+    });
+</script>
 </body>
 </html>
