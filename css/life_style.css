@@ -1,8 +1,8 @@
 .layout{width:100%;height:100%;position: relative;overflow: hidden;}
-.LeftMain,.RightMain{width:100px;position:absolute;top:0;bottom:0;left:0;background:#242427;}
-.RightMain{width:auto;top:0;right:0;bottom:0;left:100px;background:#f6f6f6;}
+.LeftMain,.RightMain{width:90px;position:absolute;top:0;bottom:0;left:0;background:#242427;}
+.RightMain{width:auto;top:0;right:0;bottom:0;left:90px;background:#f6f6f6;}
 .RightCount{position: absolute;top:49px;right:0;left:0;bottom:0;padding:20px ;background:#f6f6f6;}
-.logo{width:100px;background:#347cdc;padding:15px 0;}
+.logo{width:90px;background:#347cdc;padding:15px 0;}
 .logo img{width:70%;}
 .leftBtn{display:block;color:#aaa;padding:20px 0;margin-bottom:10px;transition:0.2s;}
 .leftBtn em{line-height:30px;}
@@ -25,7 +25,7 @@
 .TableData th,.TableData td{border:1px solid #ededed;padding-left:10px;height:40px;}
 .TableData th{background:#f1f0f0;height:50px;}
 .TableData th .Search{top:10px;}
-.TableData thead td{background:#f9f9f9;color:#333;font-size:14px;}
+.TableData thead td{background:#f9f9f9;color:#333;}
 .TableData tbody td{color:#555;}
 .TableData tbody td .txt_hidden{width:90%;}
 .TableData tbody tr.font12 td{font-size:14px;color:#333;background:#f9f9f9;}
