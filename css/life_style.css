@@ -13,7 +13,7 @@
 .SerBtn{width:30px;height:29px;background-position:-35px 0;}
 .OutBtn{width:60px;height:49px;background-color:#b4b4b4;transition:0.2s;}
 .OutBtn:hover{background-color:#ee6868;transition:0.2s;}
-.Board{width:80%;margin:0 auto;margin-top:3%;}
+.Board{width:80%;margin:0 auto;}
 .Tilte{height:40px;line-height:40px;border-bottom: 1px solid #cccccd;}
 .Board ul li{display: inline-block;width:24%;float: left;border-right: 1px solid #cccccd;height:150px;}
 .Board ul li span{display: inline-block;font-size:60px;line-height:60px;padding-top:30px;}
