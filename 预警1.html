@@ -39,7 +39,7 @@
             <table class="TableData">
                 <thead>
                     <tr>
-                        <th colspan="11" class="clearfix">
+                        <th colspan="15" class="clearfix">
                             <a href="#" class="inlineblock current">公司用户(1000)</a>
                             <a href="#" class="inlineblock">销售人员(1000)</a>
                             <div class="Search floatright clearfix marr20">
@@ -58,9 +58,13 @@
                         <td>包人数</td>
                         <td>每月付费</td>
                         <td>预警周期</td>
+                        <td>付款日期</td>
+                        <td>下次付费</td>
+                        <td>WEB登录数</td>
+                        <td>APP登录数</td>
                         <td>负责销售</td>
-                        <td>本周每日申请发送量</td>
-                        <td>上周每日申请发送量</td>
+                        <td title="本周申请发送量">本周发送量</td>
+                        <td title="上周申请发送量">上周发送量</td>
                         <td class="width-80">发送差额</td>
                     </tr>
                     <tr>
@@ -71,6 +75,10 @@
                         <td><span class="txt_hidden">500</span></td>
                         <td><span class="txt_hidden">999.00</span></td>
                         <td><span class="txt_hidden">31</span></td>
+                        <td><span class="txt_hidden">2015-3-4</span></td>
+                        <td><span class="txt_hidden">2016-3-4</span></td>
+                        <td><span class="txt_hidden">900</span></td>
+                        <td><span class="txt_hidden">1000</span></td>
                         <td><span class="txt_hidden">周润发</span></td>
                         <td><span class="txt_hidden">350</span></td>
                         <td><span class="txt_hidden">200</span></td>
@@ -84,6 +92,10 @@
                         <td><span class="txt_hidden">500</span></td>
                         <td><span class="txt_hidden">999.00</span></td>
                         <td><span class="txt_hidden">31</span></td>
+                        <td><span class="txt_hidden">2015-3-4</span></td>
+                        <td><span class="txt_hidden">2016-3-4</span></td>
+                        <td><span class="txt_hidden">900</span></td>
+                        <td><span class="txt_hidden">1000</span></td>
                         <td><span class="txt_hidden">周润发</span></td>
                         <td><span class="txt_hidden">350</span></td>
                         <td><span class="txt_hidden">200</span></td>
@@ -97,19 +109,10 @@
                         <td><span class="txt_hidden">500</span></td>
                         <td><span class="txt_hidden">999.00</span></td>
                         <td><span class="txt_hidden">31</span></td>
-                        <td><span class="txt_hidden">周润发</span></td>
-                        <td><span class="txt_hidden">350</span></td>
-                        <td><span class="txt_hidden">200</span></td>
-                        <td><span class="txt_hidden minus">-150</span></td>
-                    </tr>
-                    <tr>
-                        <td class="aligncenter"><em class="Circle CirInfo"></em></td>
-                        <td><span class="txt_hidden">上海万企明道软件有限公司</span></td>
-                        <td><span class="txt_hidden">IT行业</span></td>
-                        <td><span class="txt_hidden">现金</span></td>
-                        <td><span class="txt_hidden">500</span></td>
-                        <td><span class="txt_hidden">999.00</span></td>
-                        <td><span class="txt_hidden">31</span></td>
+                        <td><span class="txt_hidden">2015-3-4</span></td>
+                        <td><span class="txt_hidden">2016-3-4</span></td>
+                        <td><span class="txt_hidden">900</span></td>
+                        <td><span class="txt_hidden">1000</span></td>
                         <td><span class="txt_hidden">周润发</span></td>
                         <td><span class="txt_hidden">350</span></td>
                         <td><span class="txt_hidden">200</span></td>
@@ -123,19 +126,10 @@
                         <td><span class="txt_hidden">500</span></td>
                         <td><span class="txt_hidden">999.00</span></td>
                         <td><span class="txt_hidden">31</span></td>
-                        <td><span class="txt_hidden">周润发</span></td>
-                        <td><span class="txt_hidden">350</span></td>
-                        <td><span class="txt_hidden">200</span></td>
-                        <td><span class="txt_hidden plus">+150</span></td>
-                    </tr>
-                    <tr>
-                        <td class="aligncenter"><em class="Circle CirWaring"></em></td>
-                        <td><span class="txt_hidden">上海万企明道软件有限公司</span></td>
-                        <td><span class="txt_hidden">IT行业</span></td>
-                        <td><span class="txt_hidden">现金</span></td>
-                        <td><span class="txt_hidden">500</span></td>
-                        <td><span class="txt_hidden">999.00</span></td>
-                        <td><span class="txt_hidden">31</span></td>
+                        <td><span class="txt_hidden">2015-3-4</span></td>
+                        <td><span class="txt_hidden">2016-3-4</span></td>
+                        <td><span class="txt_hidden">900</span></td>
+                        <td><span class="txt_hidden">1000</span></td>
                         <td><span class="txt_hidden">周润发</span></td>
                         <td><span class="txt_hidden">350</span></td>
                         <td><span class="txt_hidden">200</span></td>
@@ -149,10 +143,14 @@
                         <td><span class="txt_hidden">500</span></td>
                         <td><span class="txt_hidden">999.00</span></td>
                         <td><span class="txt_hidden">31</span></td>
+                        <td><span class="txt_hidden">2015-3-4</span></td>
+                        <td><span class="txt_hidden">2016-3-4</span></td>
+                        <td><span class="txt_hidden">900</span></td>
+                        <td><span class="txt_hidden">1000</span></td>
                         <td><span class="txt_hidden">周润发</span></td>
                         <td><span class="txt_hidden">350</span></td>
                         <td><span class="txt_hidden">200</span></td>
-                        <td><span class="txt_hidden">0</span></td>
+                        <td><span class="txt_hidden plus">+150</span></td>
                     </tr>
                 </tbody>
             </table>

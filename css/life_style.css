@@ -28,6 +28,9 @@
 .TableData thead td{background:#f9f9f9;color:#333;font-size:14px;}
 .TableData tbody td{color:#555;}
 .TableData tbody td .txt_hidden{width:90%;}
+.TableData tbody tr.font14 td{font-size:14px;color:#333;background:#f9f9f9;}
+.TableData tbody tr:hover td{background:#ddd;cursor: pointer;}
+.TableData tbody tr.font14:hover td{background:#f9f9f9;cursor:default;}
 .TableData th a.inlineblock{width:110px;height:50px;line-height:50px;color:#888;margin-left:-10px;text-align: center;margin-right:1px;}
 .TableData th a.inlineblock:hover,.TableData th a.inlineblock.current{background:#347cdc;color:#fff;}
 .Circle{display:inline-block;width:10px;height:10px;border-radius:50%;border:1px solid #d1d1d1;background:#e7e7e7;cursor: pointer;margin-left:-10px;}
