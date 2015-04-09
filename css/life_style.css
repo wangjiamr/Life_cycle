@@ -24,12 +24,12 @@
 .TableData{width:100%;}
 .TableData th,.TableData td{border:1px solid #ededed;padding-left:10px;height:40px;}
 .TableData th{background:#f1f0f0;height:50px;}
-.TableData th .Search{top:1px;}
+.TableData th .Search{top:10px;}
 .TableData thead td{background:#f9f9f9;color:#333;font-size:14px;}
 .TableData tbody td{color:#555;}
 .TableData tbody td .txt_hidden{width:90%;}
-.TableData th a.block{height:50px;line-height:50px;color:#888;margin-left:-10px;text-align: center;}
-.TableData th a.block:hover,.TableData th a.block.current{background:#347cdc;color:#fff;}
+.TableData th a.inlineblock{width:110px;height:50px;line-height:50px;color:#888;margin-left:-10px;text-align: center;margin-right:1px;}
+.TableData th a.inlineblock:hover,.TableData th a.inlineblock.current{background:#347cdc;color:#fff;}
 .Circle{display:inline-block;width:10px;height:10px;border-radius:50%;border:1px solid #d1d1d1;background:#e7e7e7;cursor: pointer;margin-left:-10px;}
 .CirInfo{background:#60ca59;border-color:#5cb457;}
 .CirWaring{background:#ec6a6a;border-color:#e25f5f;}
