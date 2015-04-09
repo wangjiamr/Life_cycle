@@ -1,12 +1,12 @@
 .layout{width:100%;height:100%;position: relative;overflow: hidden;}
 .LeftMain,.RightMain{width:100px;position:absolute;top:0;bottom:0;left:0;background:#242427;}
 .RightMain{width:auto;top:0;right:0;bottom:0;left:100px;background:#f6f6f6;}
-.RightCount{position: absolute;top:49px;right:0;left:0;bottom:0;padding:20px 60px;background:#f6f6f6;}
+.RightCount{position: absolute;top:49px;right:0;left:0;bottom:0;padding:20px ;background:#f6f6f6;}
 .logo{width:100px;background:#347cdc;padding:15px 0;}
 .logo img{width:70%;}
 .leftBtn{display:block;color:#aaa;padding:20px 0;margin-bottom:10px;transition:0.2s;}
 .leftBtn em{line-height:30px;}
-.leftBtn:hover,.leftBtn.current{background:#2f2f33;transition:0.2s;}
+.leftBtn:hover,.leftBtn.current{background:#000;transition:0.2s;}
 .TopBar{width:100%;height:49px;background:#e1e1e1;}
 .Search{width:262px;height:29px;margin-left:50px;position: relative;top:10px;}
 .Search input{border:1px solid #bbb;background:#fff;width:230px;height:27px;text-indent:5px;}
@@ -28,9 +28,9 @@
 .TableData thead td{background:#f9f9f9;color:#333;font-size:14px;}
 .TableData tbody td{color:#555;}
 .TableData tbody td .txt_hidden{width:90%;}
-.TableData tbody tr.font14 td{font-size:14px;color:#333;background:#f9f9f9;}
+.TableData tbody tr.font12 td{font-size:14px;color:#333;background:#f9f9f9;}
 .TableData tbody tr:hover td{background:#ddd;cursor: pointer;}
-.TableData tbody tr.font14:hover td{background:#f9f9f9;cursor:default;}
+.TableData tbody tr.font12:hover td{background:#f9f9f9;cursor:default;}
 .TableData th a.inlineblock{width:110px;height:50px;line-height:50px;color:#888;margin-left:-10px;text-align: center;margin-right:1px;}
 .TableData th a.inlineblock:hover,.TableData th a.inlineblock.current{background:#347cdc;color:#fff;}
 .Circle{display:inline-block;width:10px;height:10px;border-radius:50%;border:1px solid #d1d1d1;background:#e7e7e7;cursor: pointer;margin-left:-10px;}
