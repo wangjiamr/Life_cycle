@@ -24,20 +24,22 @@
 .TableData{width:100%;}
 .TableData th,.TableData td{border:1px solid #ededed;padding-left:10px;height:40px;}
 .TableData th{background:#f1f0f0;height:50px;}
-.TableData th .Search{top:10px;}
+/*.TableData th .Search{top:10px;}*/
 .TableData thead td{background:#f9f9f9;color:#333;}
 .TableData tbody td{color:#555;}
 .TableData tbody td .txt_hidden{width:90%;}
 .TableData tbody tr.font12 td{font-size:14px;color:#333;background:#f9f9f9;}
 .TableData tbody tr:hover td{background:#ddd;cursor: pointer;}
 .TableData tbody tr.font12:hover td{background:#f9f9f9;cursor:default;}
+.TableData tbody tr:hover td.nobg{cursor:default;}
+.TableData tbody tr.nobg:hover td{cursor:default;background: none;}
 .TableData th a.inlineblock{width:110px;height:50px;line-height:50px;color:#888;margin-left:-10px;text-align: center;margin-right:1px;}
 .TableData th a.inlineblock:hover,.TableData th a.inlineblock.current{background:#347cdc;color:#fff;}
 .Circle{display:inline-block;width:10px;height:10px;border-radius:50%;border:1px solid #d1d1d1;background:#e7e7e7;cursor: pointer;margin-left:-10px;}
 .CirInfo{background:#60ca59;border-color:#5cb457;}
 .CirWaring{background:#ec6a6a;border-color:#e25f5f;}
 .UserList{min-width:1104px;}
-.UserList li{background:#fff;border:1px solid #ebebeb;padding:10px;float: left;line-height:20px;margin:0 10px 10px 0;width:16%;min-width:240px;cursor: pointer;transition:0.2s;}
+.UserList li{background:#fff;border:1px solid #ebebeb;padding:10px;float: left;line-height:20px;margin:0 10px 10px 0;min-width:240px;cursor: pointer;transition:0.2s;}
 .UserList li:hover{background:#ecf3fb;transition:0.2s;}
 .TableData tbody td .UserList li .txt_hidden{width:75%;}
 .TableData tbody td .UserList li .UserName,.TableData tbody td .UserList li .UserName img{width:50px;height:50px;}
@@ -50,18 +52,23 @@
 .Clander{background:#fff;height:29px;border-left:1px solid #ebebeb;}
 .Clander input{border:0;background:#fff;height:22px;line-height:22px;margin-top:4px;color:#888;border-right:1px solid #ebebeb;}
 .Clander a{width:30px;height:20px;text-align: center;margin:5px 0 0 10px;}
-
-
-
-
-
-
-
-
-
-
-
-
+.dataOut{position: absolute;top:20px;left:20px;right:100px;bottom:20px;}
+.dataOut table{width:100%;height:100%;}
+.dataOut table tr td{width:50%;background:#fff;border:20px solid #f6f6f6;padding:15px;vertical-align: top;}
+.dataTitle{border-bottom:1px solid #eee;padding:10px 20px;margin-top:10px;}
+.dataTitle li{display: inline-block;width:20%;padding:0 10px;border-right:1px solid #eee;color:#888;font-size:12px;line-height:24px;}
+.tdInner{width:100%;height:100%;position:relative;background:#fff;}
+.clanderTitle{background:#f8f8f8;height:40px;line-height:40px;padding:5px 10px;}
+.clanderTitle a{color:#888;}
+.tableOut{margin:20px 60px;}
+.tableOut table{width:100%;}
+.tableOut table td{border:1px solid #ddd;padding:5px;}
+.tableOut table td table{margin:10px 0;}
+.tableOut table td table th,.tableOut table td table td{border:0;width:49%;}
+.tableOut table td table th p,.tableOut table td table td p{line-height:24px;}
+.tableOut table td table th{background: none;border-right:1px solid #ddd;}
+.tableOut table td table td{text-indent:20px;}
+.tableOut table td:hover{background:#f8f8f8!important;}
 
 
 

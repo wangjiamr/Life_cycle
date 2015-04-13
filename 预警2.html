@@ -51,7 +51,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td colspan="3" style="padding:20px;">
+                        <td colspan="3" class="nobg" style="padding:20px;">
                             <div class="pagenation alignleft">
                                 <a href="#" class="width-40">ALL</a>
                                 <a href="#">A</a>
@@ -169,5 +169,17 @@
     <!--右侧over-->
 </div>
 <div class="mask" style="display:;"></div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    $(function(){
+        function sizeLi(){
+            $('.UserList li').width(($('.UserList').width()-128)/4);
+        }
+        sizeLi();
+        $(window).resize(function(){
+           sizeLi();
+        });
+    });
+</script>
 </body>
 </html>
