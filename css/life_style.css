@@ -52,7 +52,7 @@
 .Clander{background:#fff;height:29px;border-left:1px solid #ebebeb;}
 .Clander input{border:0;background:#fff;height:22px;line-height:22px;margin-top:4px;color:#888;border-right:1px solid #ebebeb;}
 .Clander a{width:30px;height:20px;text-align: center;margin:5px 0 0 10px;}
-.dataOut{position: absolute;top:20px;left:20px;right:100px;bottom:20px;}
+.dataOut{position: absolute;top:20px;left:20px;right:20px;bottom:20px;}
 .dataOut table{width:100%;height:100%;}
 .dataOut table tr td{width:50%;background:#fff;border:20px solid #f6f6f6;padding:15px;vertical-align: top;}
 .dataTitle{border-bottom:1px solid #eee;padding:10px 20px;margin-top:10px;}
