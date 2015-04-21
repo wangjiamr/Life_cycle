@@ -55,7 +55,7 @@
 .dataOut{position: absolute;top:20px;left:20px;right:120px;bottom:20px;}
 .dataOut table{width:100%;height:100%;}
 .dataOut table tr td{width:50%;background:#fff;border:20px solid #f6f6f6;padding:15px;vertical-align: top;}
-.dataTitle{border-bottom:1px solid #eee;padding:10px 20px;margin-top:10px;}
+.dataTitle{border-bottom:1px solid #eee;padding:10px 20px;margin-top:10px;height:50px;}
 .dataTitle li{display: inline-block;width:18%;padding:0 10px;border-right:1px solid #eee;color:#888;font-size:12px;line-height:24px;}
 .tdInner{width:100%;height:100%;position:relative;background:#fff;}
 .clanderTitle{background:#f8f8f8;height:40px;line-height:40px;padding:5px 10px;}
