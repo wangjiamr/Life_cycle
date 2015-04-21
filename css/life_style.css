@@ -52,25 +52,25 @@
 .Clander{background:#fff;height:29px;border-left:1px solid #ebebeb;}
 .Clander input{border:0;background:#fff;height:22px;line-height:22px;margin-top:4px;color:#888;border-right:1px solid #ebebeb;}
 .Clander a{width:30px;height:20px;text-align: center;margin:5px 0 0 10px;}
-.dataOut{position: absolute;top:20px;left:20px;right:20px;bottom:20px;}
+.dataOut{position: absolute;top:20px;left:20px;right:120px;bottom:20px;}
 .dataOut table{width:100%;height:100%;}
 .dataOut table tr td{width:50%;background:#fff;border:20px solid #f6f6f6;padding:15px;vertical-align: top;}
 .dataTitle{border-bottom:1px solid #eee;padding:10px 20px;margin-top:10px;}
-.dataTitle li{display: inline-block;width:20%;padding:0 10px;border-right:1px solid #eee;color:#888;font-size:12px;line-height:24px;}
+.dataTitle li{display: inline-block;width:18%;padding:0 10px;border-right:1px solid #eee;color:#888;font-size:12px;line-height:24px;}
 .tdInner{width:100%;height:100%;position:relative;background:#fff;}
 .clanderTitle{background:#f8f8f8;height:40px;line-height:40px;padding:5px 10px;}
 .clanderTitle a{color:#888;}
 .tableOut{margin:20px 60px;}
 .tableOut table{width:100%;}
-.tableOut table td{border:1px solid #ddd;padding:5px;}
+.tableOut table td{border:1px solid #ddd;padding:5px;vertical-align: top;height:auto;}
 .tableOut table td table{margin:10px 0;}
 .tableOut table td table th,.tableOut table td table td{border:0;width:49%;}
-.tableOut table td table th p,.tableOut table td table td p{line-height:24px;}
+.tableOut table td table th p,.tableOut table td table td p{line-height:22x;}
 .tableOut table td table th{background: none;border-right:1px solid #ddd;}
 .tableOut table td table td{text-indent:20px;}
 .tableOut table td:hover{background:#f8f8f8!important;}
-
-
+.tableOut table tr.borderT td{border-top:1px solid #eee;}
+.detail{position: absolute;right:-100px;top:50%;margin-top:-30px;}
 
 
 
