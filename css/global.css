@@ -71,6 +71,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .add:hover{text-decoration: underline;}
 .plus{color:#50ac4a;}
 .minus{color:#ec6a6a;}
+.scrollY{height:100%;overflow-y:auto!important;padding-right:0!important;}
 /*width*/
 .width-30{width:30px!important;}
 .width-40{width:40px!important;}
