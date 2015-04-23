@@ -65,7 +65,7 @@
 .tableOut table td{border:1px solid #ddd;padding:5px;vertical-align: top;height:auto;}
 .tableOut table td table{margin:10px 0;}
 .tableOut table td table th,.tableOut table td table td{border:0;width:49%;}
-.tableOut table td table th p,.tableOut table td table td p{line-height:22x;}
+.tableOut table td table th p,.tableOut table td table td p{line-height:22px;}
 .tableOut table td table th{background: none;border-right:1px solid #ddd;}
 .tableOut table td table td{text-indent:20px;}
 .tableOut table td:hover{background:#f8f8f8!important;}
