@@ -38,6 +38,7 @@
 .Circle{display:inline-block;width:10px;height:10px;border-radius:50%;border:1px solid #d1d1d1;background:#e7e7e7;cursor: pointer;margin-left:-10px;}
 .CirInfo{background:#60ca59;border-color:#5cb457;}
 .CirWaring{background:#ec6a6a;border-color:#e25f5f;}
+.CirY{background:#fdc006;border-color:#eeb815;}
 .UserList{min-width:1104px;}
 .UserList li{background:#fff;border:1px solid #ebebeb;padding:10px;float: left;line-height:20px;margin:0 10px 10px 0;min-width:240px;cursor: pointer;transition:0.2s;}
 .UserList li:hover{background:#ecf3fb;transition:0.2s;}
