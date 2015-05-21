@@ -140,14 +140,31 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .Titillium{font-family: Titillium;font-weight:bold;}
 .UserName img{width:30px;height:30px;border-radius:50%;position: relative;top:3px;}
 .UserName span{display:inline-block;height:35px;line-height:35px;padding-left:5px;}
-
+.mask{position: absolute;width:100%;height:100%;background:#000;opacity: 0.5;left:0;top:0;display: none;}
+.pop{width:300px;height:180px;position: absolute;left:50%;top:50%;margin:-90px 0 0 -150px;background:#fff;z-index: 10;}
+.pop .title{height:26px;line-height:26px;border-bottom:1px solid #ddd;padding:0 10px;}
+.pop table {width:100%;}
+.pop table th{width:130px;height:45px;text-align: right;padding-right:10px;}
+.pop table select{width:130px;height:26px;line-height:26px;border:1px solid #ccc;}
+a.makeSure{display: inline-block;padding:6px 20px;border:1px solid #fff;border-radius:3px;color:#fff;background:#347cdc;}
 /*分页*/
 .pagenation a{display: inline-block;min-width: 24px;height: 24px;line-height: 24px;color:#a0a0a0;text-align: center;border:1px solid #e5e5e5;background:#fff;}
 .pagenation a:hover,.pagenation a.current{color:#fff;background-color:#aaa;}
 .pagenation .page{font-size: 14px;margin:0 10px;}
 .pagenation .page:hover{background-color:#fff;color:#347cdc;}
 .pagenation a.disabled:hover,.pagenation a.disabled,.CheckWord .disabled:hover,.CheckWord .disabled{background:none;color:#ccc;cursor: default;}
-
+/*input*/
+.int{height:26px;line-height:normal;border:1px solid #ccc;border-radius:1px;text-indent:5px;color: #aaa;width: 100%;outline: 0;}
+.border{border:1px solid #ccc;}
+.int-txt{line-height:18px;width:100%;}
+.has-general{position: relative;}
+.has-general label.control-label{display:none;}
+.has-general,.has-success, .has-warning, .has-error{position: relative;}
+.has-general input{width:128px;height:26px;line-height:26px;border:1px solid #ccc;outline: 0;color:#333;text-indent:5px;}
+.has-general input:focus{box-shadow:0 0 2px #59a7f9;}
+.has-general label{line-height:28px;position: absolute;left:1px;top:1px;right:1px;bottom:1px;background:#fff;text-indent:3px;}
+.has-error input,.intBox.has-error{border-color:#b94a48;}
+.has-error label.control-label{display:block;color:#b94a48;}
 
 
 
